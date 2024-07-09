@@ -1,19 +1,13 @@
-########## Work in this ##########
-
-from pycaret.classification import setup as class_setup, pull as class_pull, compare_models as class_compare_models, save_model as class_save_model
-from pycaret.regression import setup as reg_setup, pull as reg_pull, compare_models as reg_compare_models, save_model as reg_save_model
 import streamlit as st
 import os, warnings, time
 warnings.filterwarnings('ignore')
 import pandas as pd
 
-#from pycaret.classification import setup as class_setup, compare_models as class_compare_models, pull as class_pull, save_model as class_save_model
-#from pycaret.regression import setup as reg_setup, compare_models as reg_compare_models, pull as reg_pull, save_model as reg_save_model
-
-#import pycaret
-
 from ydata_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
+
+from pycaret.classification import setup as class_setup, pull as class_pull, compare_models as class_compare_models, save_model as class_save_model
+from pycaret.regression import setup as reg_setup, pull as reg_pull, compare_models as reg_compare_models, save_model as reg_save_model
 
 if os.path.exists('./dataset.csv'):
     df = pd.read_csv('./dataset.csv', index_col=None)

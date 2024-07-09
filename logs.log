@@ -9631,3 +9631,19 @@ Increase the number of iterations (max_iter) or scale the data as shown in:
                                                               use_cat_names=True))),
                 ('trained_model', LGBMRegressor(n_jobs=-1, random_state=2252))])
 2024-07-09 23:14:42,257:INFO:save_model() successfully completed......................................
+2024-07-09 23:25:16,217:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-09 23:25:16,217:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-09 23:25:16,217:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-09 23:25:16,218:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-09 23:56:51,615:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-09 23:56:51,615:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-09 23:56:51,615:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-09 23:56:51,615:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.

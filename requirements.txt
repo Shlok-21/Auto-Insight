@@ -4,3 +4,4 @@ pycaret
 
 ydata-profiling
 streamlit-pandas-profiling
+phik==0.12.4

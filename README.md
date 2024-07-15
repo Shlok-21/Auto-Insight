@@ -1,7 +1,7 @@
-# Auto Insight: Streamlined Machine Learning for Everyone
+# Auto Insight: Automated EDA and Streamlined Modelling 
 
 Auto Insight is a user-friendly Streamlit application that empowers users to effortlessly explore, analyze, and build machine learning models.
-
+Saves upto 15-26% of time and resources spent on a typical data science project. [Source](https://www.kaggle.com/code/headsortails/what-we-do-in-the-kernels-a-kaggle-survey-story#closing-remarks)
 ## Key Features:
 
 - **Effortless Data Upload:** Upload your CSV dataset directly through the intuitive Streamlit interface.
